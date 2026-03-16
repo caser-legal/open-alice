@@ -1,0 +1,45 @@
+node_modules/
+dist/
+logs/
+
+# Ignore all data directory contents by default
+/data/**
+# Except default directory (persona, heartbeat defaults)
+!/data/default/
+!/data/default/**
+# Except config templates (for deployment)
+!/data/config/templates/
+!/data/config/templates/**
+# Except .gitkeep files (to preserve directory structure)
+!/data/**/.gitkeep
+
+state.json
+*.log
+
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build cache
+*.tsbuildinfo
+
+# Test
+coverage/
+
+# Claude Code
+.claude/
+packages/ibkr/ref/source/JavaClient/
+packages/ibkr/ref/source/cppclient/
+packages/ibkr/ref/samples/Java/
+packages/ibkr/ref/samples/Cpp/
+packages/ibkr/ref/CMakeLists.txt
+packages/ibkr/src/protobuf/
