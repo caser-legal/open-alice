@@ -1,0 +1,15 @@
+[
+  {
+    "id": "binance-platform",
+    "type": "ccxt",
+    "exchange": "binance",
+    "sandbox": false,
+    "demoTrading": true,
+    "defaultMarketType": "swap"
+  },
+  {
+    "id": "alpaca-platform",
+    "type": "alpaca",
+    "paper": true
+  }
+]

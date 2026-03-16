@@ -1,0 +1,89 @@
+{
+  "jobs": [
+    {
+      "id": "9481a222",
+      "name": "__heartbeat__",
+      "enabled": false,
+      "schedule": {
+        "kind": "every",
+        "every": "30m"
+      },
+      "payload": "Read data/brain/heartbeat.md (or data/default/heartbeat.default.md if not found) and follow the instructions inside.",
+      "state": {
+        "nextRunAtMs": 1773698127356,
+        "lastRunAtMs": 1773695587892,
+        "lastStatus": "ok",
+        "consecutiveErrors": 0
+      },
+      "createdAt": 1773614992442
+    },
+    {
+      "id": "ce48b64f",
+      "name": "Within-minute BTC trading",
+      "enabled": true,
+      "schedule": {
+        "kind": "every",
+        "every": "1m"
+      },
+      "payload": "Execute within-minute BTC trades - buy and sell immediately to capture bid-ask spreads and micro-movements",
+      "state": {
+        "nextRunAtMs": 1773698667394,
+        "lastRunAtMs": 1773698607394,
+        "lastStatus": "ok",
+        "consecutiveErrors": 0
+      },
+      "createdAt": 1773687930207
+    },
+    {
+      "id": "670c3b4e",
+      "name": "Within-minute ETH trading",
+      "enabled": true,
+      "schedule": {
+        "kind": "every",
+        "every": "1m"
+      },
+      "payload": "Execute within-minute ETH trades - buy and sell immediately to capture bid-ask spreads and micro-movements",
+      "state": {
+        "nextRunAtMs": 1773698667394,
+        "lastRunAtMs": 1773698607394,
+        "lastStatus": "ok",
+        "consecutiveErrors": 0
+      },
+      "createdAt": 1773687939099
+    },
+    {
+      "id": "c7caa88b",
+      "name": "Within-minute SOL trading",
+      "enabled": true,
+      "schedule": {
+        "kind": "every",
+        "every": "1m"
+      },
+      "payload": "Execute within-minute SOL trades - buy and sell immediately to capture bid-ask spreads and micro-movements",
+      "state": {
+        "nextRunAtMs": 1773698667394,
+        "lastRunAtMs": 1773698607394,
+        "lastStatus": "ok",
+        "consecutiveErrors": 0
+      },
+      "createdAt": 1773687947296
+    },
+    {
+      "id": "a2be9533",
+      "name": "Strategy monitoring and adjustment",
+      "enabled": true,
+      "schedule": {
+        "kind": "every",
+        "every": "5m"
+      },
+      "payload": "Monitor trading performance and adjust within-minute strategy based on market conditions and PnL",
+      "state": {
+        "nextRunAtMs": 1773698727360,
+        "lastRunAtMs": 1773698427360,
+        "lastStatus": "ok",
+        "consecutiveErrors": 0
+      },
+      "createdAt": 1773687955474
+    }
+  ]
+}

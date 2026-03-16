@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "apiUrl": "http://localhost:6900",
+  "providers": {
+    "equity": "yfinance",
+    "crypto": "yfinance",
+    "currency": "yfinance",
+    "newsCompany": "yfinance",
+    "newsWorld": "fmp"
+  },
+  "providerKeys": {},
+  "dataBackend": "sdk",
+  "apiServer": {
+    "enabled": true,
+    "port": 6901
+  }
+}

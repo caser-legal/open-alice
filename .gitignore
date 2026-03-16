@@ -2,16 +2,18 @@ node_modules/
 dist/
 logs/
 
-# Ignore all data directory contents by default
-/data/**
-# Except default directory (persona, heartbeat defaults)
-!/data/default/
-!/data/default/**
-# Except config templates (for deployment)
-!/data/config/templates/
-!/data/config/templates/**
-# Except .gitkeep files (to preserve directory structure)
-!/data/**/.gitkeep
+# Data directories - critical user data is tracked
+/data/default/
+/data/config/templates/
+
+# Ignore runtime/generated content only
+/data/cache/
+/data/sessions/
+/data/event-log/
+/data/news-collector/
+/data/cron/
+/data/trading/
+/data/brain/
 
 state.json
 *.log

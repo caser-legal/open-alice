@@ -1,0 +1,12 @@
+{
+  "provider": {
+    "type": "ccxt",
+    "exchange": "binance",
+    "apiKey": "YOUR_BINANCE_API_KEY",
+    "apiSecret": "YOUR_BINANCE_API_SECRET",
+    "sandbox": false,
+    "demoTrading": true,
+    "defaultMarketType": "spot"
+  },
+  "guards": []
+}
