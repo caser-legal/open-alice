@@ -1,0 +1,50 @@
+node_modules/
+dist/
+logs/
+
+# Local user data. Never commit accounts, keys, sessions, or trading history.
+/data/default/
+/data/config/
+/data/config/templates/
+
+# Ignore runtime/generated content only
+/data/cache/
+/data/sessions/
+/data/event-log/
+/data/news-collector/
+/data/cron/
+/data/trading/
+/data/brain/
+
+state.json
+heartbeat.md
+heartbeat_report.md
+*.log
+
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build cache
+*.tsbuildinfo
+
+# Test
+coverage/
+
+# Claude Code
+.claude/
+packages/ibkr/ref/source/JavaClient/
+packages/ibkr/ref/source/cppclient/
+packages/ibkr/ref/samples/Java/
+packages/ibkr/ref/samples/Cpp/
+packages/ibkr/ref/CMakeLists.txt
+packages/ibkr/src/protobuf/
